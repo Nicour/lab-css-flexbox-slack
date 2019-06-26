@@ -1,0 +1,150 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+@font-face {
+  font-family: 'LarsseitW05';
+  src: url('../fonts/LarsseitW05-Thin.eot');
+  src: url('../fonts/LarsseitW05-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LarsseitW05-Thin.woff2') format('woff2'),
+      url('../fonts/LarsseitW05-Thin.woff') format('woff'),
+      url('../fonts/LarsseitW05-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LarsseitW05';
+  src: url('../fonts/LarsseitW05-Bold.eot');
+  src: url('../fonts/LarsseitW05-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LarsseitW05-Bold.woff2') format('woff2'),
+      url('../fonts/LarsseitW05-Bold.woff') format('woff'),
+      url('../fonts/LarsseitW05-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Book';
+  src: url('../fonts/Circular-Book.eot');
+  src: url('../fonts/Circular-Book.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Circular-Book.woff2') format('woff2'),
+      url('../fonts/Circular-Book.woff') format('woff'),
+      url('../fonts/Circular-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('../fonts/Circular-Bold.eot');
+  src: url('../fonts/Circular-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Circular-Bold.woff2') format('woff2'),
+      url('../fonts/Circular-Bold.woff') format('woff'),
+      url('../fonts/Circular-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Circular Book';
+}
+
+p {
+  color: #454545;  
+}
+
+.title {
+  font-family: 'LarsseitW05';
+  font-weight: 700;
+}
+
+.nav-header {
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-header a {
+display: block;
+float: left;
+}
+
+#toggle {
+  float: right;
+  padding: 5px;
+}
+
+#toggle:hover > .nav-mobile{
+display: block;
+}
+
+.nav-mobile {
+  position: absolute;
+  background-color: #611f69;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  display: none;
+}
+
+.nav-mobile svg:first-child {
+  float: left;
+  padding: 20px;
+}
+
+.nav-mobile svg:last-child {
+  float: right;
+  padding: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-footer a {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.section-clients {
+  background-color: #f5f5f5;
+}
+
+.link-style {
+  font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.44444444;
+  letter-spacing: normal;
+}
+
+.customer-image {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.customer-card {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
